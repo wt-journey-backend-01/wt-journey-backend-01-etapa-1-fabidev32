@@ -1,0 +1,18 @@
+{
+  "lanches": [
+    {
+      "nome": "X-Tudo",
+      "ingredientes": [
+        "alface",
+        "tomate",
+        "carne de hambúrguer",
+        "mussarela",
+        "presunto"
+      ]
+    },
+    {
+      "nome": "Hamburguer vegano",
+      "ingredientes": ["alface", "tomate", "pickles", "pepino", "carne vegana"]
+    }
+  ]
+}
