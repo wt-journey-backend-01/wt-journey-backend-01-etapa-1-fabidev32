@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Browser</title>
+  </head>
+
+  <body>
+    <div class="container_Pagina_Inicial">
+      <h1 id="titulo">Dev Burguer Cardápio</h1>
+      <section class="section_Cardapio">
+        <div id="lanches"></div>
+      </section>
+
+      <section class="section_Formulario">
+        <form action="#" onsubmit="ExibirAlerta()">
+          <label for="nome">Nome completo:</label>
+          <input type="text" id="nome" />
+
+          <label for="email">E-mail:</label>
+          <input type="text" id="email" />
+
+          <label for="nome_Novo_Lanche">Nome do novo sabor:</label>
+          <input type="text" id="nome_Novo_Lanche" />
+
+          <label for="ingredientes">Lista de ingredientes:</label>
+          <input type="text" id="ingredientes" />
+
+          <button type="submit">Enviar novo ingrediente</button>
+          <button type="button" onClick="RedirecionarPagina()">
+            Entrar em contato
+          </button>
+        </form>
+      </section>
+    </div>
+    <script src="/script/script.js"></script>
+  </body>
+</html>
