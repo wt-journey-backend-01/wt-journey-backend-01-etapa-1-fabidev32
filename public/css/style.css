@@ -1,0 +1,56 @@
+.container_Pagina_Inicial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section_Cardapio {
+  display: flex;
+  background-color: brown;
+  color: white;
+  padding: 70px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.section_Formulario {
+  display: flex;
+  padding: 70px;
+}
+
+#titulo {
+  padding: 45px;
+  border: red solid 3px;
+  border-radius: 150px;
+  font-size: 25px;
+  width: 90px;
+  margin-left: 20px;
+}
+
+#lanches {
+  list-style: none;
+}
+
+input {
+  padding: 15px;
+  width: 400px;
+  border-radius: 15px;
+  margin: 15px;
+  display: grid;
+}
+
+label {
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+button {
+  padding: 15px;
+  width: 250px;
+  background-color: brown;
+  border-radius: 18px;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+}
